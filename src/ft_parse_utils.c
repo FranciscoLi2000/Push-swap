@@ -31,6 +31,8 @@ long	ft_atol(const char *str)
 	}
 	while (str[i] >= '0' && str[i] <= '9')
 	{
+		if (result > (LONG_MAX - (str[i] - '0')) / 10)
+			return (LONG_MAX);
 		result = result * 10 + (str[i] - '0');
 		i++;
 	}

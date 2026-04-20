@@ -50,7 +50,7 @@ static void	ft_parse_str(char *str, t_stack **a, t_stack **b)
 {
 	int		i;
 	int		j;
-	char	word[20];
+	char	word[MAX_NUM_LEN];
 
 	i = 0;
 	while (str[i])
@@ -62,7 +62,7 @@ static void	ft_parse_str(char *str, t_stack **a, t_stack **b)
 		j = 0;
 		while (str[i] && str[i] != ' ' && str[i] != '\t')
 		{
-			if (j >= 19)
+			if (j >= MAX_NUM_LEN - 1)
 				ft_error_exit(a, b);
 			word[j++] = str[i++];
 		}

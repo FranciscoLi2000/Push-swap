@@ -17,6 +17,8 @@
 # include <unistd.h>
 # include <limits.h>
 
+# define MAX_NUM_LEN 20
+
 typedef struct s_stack
 {
 	int				value;
