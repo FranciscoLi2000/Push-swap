@@ -53,3 +53,7 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# push_swap and checker binaries
+push_swap
+checker
