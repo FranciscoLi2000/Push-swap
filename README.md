@@ -31,8 +31,11 @@ Prerequisites:
 
 Steps:
 ```bash
-# Clone the repository (use your fork URL if contributing)
+# Clone the repository
 git clone https://github.com/FranciscoLi2000/Push-swap.git
+
+# Or clone your fork if contributing
+git clone https://github.com/YOUR-USERNAME/Push-swap.git
 cd Push-swap
 
 # Build push_swap
