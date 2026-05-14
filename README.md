@@ -35,7 +35,7 @@ Steps:
 git clone https://github.com/FranciscoLi2000/Push-swap.git
 
 # Or clone your fork if contributing
-git clone https://github.com/YOUR-USERNAME/Push-swap.git
+git clone https://github.com/<your-username>/Push-swap.git
 cd Push-swap
 
 # Build push_swap
