@@ -31,7 +31,7 @@ Prerequisites:
 
 Steps:
 ```bash
-# Clone the repository
+# Clone the repository (use your fork URL if contributing)
 git clone https://github.com/FranciscoLi2000/Push-swap.git
 cd Push-swap
 
